@@ -63,16 +63,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/resources/css/registro.css">
-    <link rel="shortcut icon" href="public/resources/ico/icon.jpeg" type="image/png">
-    <title>Drivex | Sign Up</title>
+    <link rel="shortcut icon" href="public/resources/ico/icone.jpg" type="image/png">
+    <title>AgroMais Ltda. | Sign Up</title>
 </head>
 <body>
   <div class="main-logo">
     <div class="esq">
-    <img src="public/resources/assets/img/logo-2.png">  
+    <img src="public/resources/ico/icone.jpg">  
     </div>
     <div class="dir">
-      <img src="public/resources/assets/img/logo.png.png">  
+      <img src="public/resources/ico/icone.jpg">  
     </div>
   </div>
 

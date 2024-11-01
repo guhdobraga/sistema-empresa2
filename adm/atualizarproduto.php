@@ -74,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../public/resources/ico/icon.jpeg" type="image/png">
+    <link rel="shortcut icon" href="../public/resources/ico/icone.jpg" type="image/png">
     <title>Drivex | Atualizar Produtos</title>
     <link rel="stylesheet" href="../public/resources/css/index.css">
     <link rel="stylesheet" href="../public/resources/css/rh-page.css">
@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="../public/resources/css/cfe-page.css">
     <link rel="stylesheet" href="../public/resources/css/cf-responsive.css">
     <link rel="stylesheet" href="../public/resources/css/cf-page.css">
-    <link rel="shortcut icon" href="../public/resources/ico/icon.jpeg" type="image/png">
+    <link rel="shortcut icon" href="../public/resources/ico/icone.jpg" type="image/png">
     <style>
         /* Estilo para o diálogo de confirmação */
         .modal {

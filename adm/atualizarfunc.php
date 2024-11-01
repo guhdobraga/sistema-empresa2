@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atualizar</title>
-    <link rel="shortcut icon" href="../public/resources/ico/icon.jpeg" type="image/png">
+    <link rel="shortcut icon" href="../public/resources/ico/icone.jpg" type="image/png">
     <style>
         /* Estilo para o diálogo de confirmação */
         .modal {

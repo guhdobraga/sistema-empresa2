@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="../public/resources/css/cfe-page.css">
     <link rel="stylesheet" href="../public/resources/css/cf-responsive.css">
     <link rel="stylesheet" href="../public/resources/css/cfva-page.css">
-    <link rel="shortcut icon" href="../public/resources/ico/icon.jpeg" type="image/png">
+    <link rel="shortcut icon" href="../public/resources/ico/icone.jpg" type="image/png">
     <style>
         /* Estilo para o diálogo de confirmação */
         .modal {

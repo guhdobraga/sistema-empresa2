@@ -25,7 +25,7 @@ if (isset($_SESSION['usuarioNiveisAcessoId'])) {
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Título</th>
+                        <th>Compras</th>
                         <th>Nome</th>
                         <th>Email</th>
                         <th>Nível de Permissão</th>

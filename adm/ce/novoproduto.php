@@ -66,8 +66,8 @@ echo "Todos os campos obrigatórios devem ser preenchidos.";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../../public/resources/ico/icon.jpeg" type="image/png">
-    <title>Drivex | Estoque Interno</title>
+    <link rel="shortcut icon" href="../../public/resources/ico/icone.jpg" type="image/png">
+    <title>AgroMais Ltda. | Estoque Interno</title>
     <link rel="stylesheet" href="../../public/resources/css/index.css">
     <link rel="stylesheet" href="../../public/resources/css/rh-page.css">
     <link rel="stylesheet" href="../../public/resources/css/rh-page.css">

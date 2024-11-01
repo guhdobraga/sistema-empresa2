@@ -43,7 +43,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../../public/resources/ico/icon.jpeg" type="image/png">
-    <title>Drivex | Gestão de benefícios</title>
+    <title>AgroMais Ltda. | Gestão de benefícios</title>
     <link rel="stylesheet" href="../../public/resources/css/index.css">
     <link rel="stylesheet" href="../../public/resources/css/rh-page.css">
     <link rel="stylesheet" href="../../public/resources/css/rh-page-lista1.css">
