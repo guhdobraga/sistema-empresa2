@@ -1,0 +1,6 @@
+{
+    "name": "sistema/empresa",
+    "require": {
+        "dompdf/dompdf": "^3.0"
+    }
+}

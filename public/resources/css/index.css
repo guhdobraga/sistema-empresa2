@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #FAFDEF;
+}
+
+
+header {
+    display: flex;
+    background-color: #033274;
+    height: 10vh;
+}
+
+.esq {
+    width: 25vw;
+    z-index: 1000;
+}
+
+.dir {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 75vw;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 10vh;
+    padding: 15px;
+}
+
+.home-ico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    padding: 20px;
+}
+
+.rh-ico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+.home-ico img {
+    height: 30px;
+    width: 30px;
+}
+
+.rh-ico img {
+    height: 30px;
+    width: 30px;
+}
+
+
+.adm-ico {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+    
+}
+.adm-ico img {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    transition: all 0.8s ease;
+}
+
+.adm-ico img:hover {
+    filter: brightness(1.4);;
+}
+
+.logout-menu {
+    display: none; /* Começa escondido */
+    position: absolute;
+    top: 40px; /* Ajuste conforme necessário */
+    right: 20px; /* Ajuste conforme necessário */
+    background-color: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+.exitbutton {
+width: 100%;
+height: 100%;
+background-color: #0350bc;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+color: white;
+font-size: 16px;
+border: none;
+}
+
+.exitbutton:hover {
+    cursor: pointer;
+    background-color: #2b60c9; /* Cor ligeiramente mais clara para realçar */
+}
+
+.seta img {
+    width: 20px;
+    height: 20px;
+}
+
+.card {
+    height: 50vh;
+    width: 40vh;
+    background-color: #033274;
+    padding: 15px;
+    transition: all 0.3s ease-in-out 0s;
+    border-color: #033274;
+    box-shadow: 0 0 8px 0 #033274;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    
+    
+}
+
+.card:focus {
+    outline: none;
+    
+}
+
+.f-ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f-ico img {
+    width: 70px;
+    height: 70px;
+}
+
+.f-ico h2 {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    background-color: #FAFDEF;
+    
+}
+
+.main-card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 19px;
+}
+
+
+.home-ico{
+    transition: all 0.3s ease;
+}
+
+.home-ico:hover{
+    transform: scale(1.05);
+
+}
+
+.rh-ico{
+    transition: all 0.3s ease;
+}
+
+.rh-ico:hover{
+    transform: scale(1.05);
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+
+    text-decoration: underline;
+}

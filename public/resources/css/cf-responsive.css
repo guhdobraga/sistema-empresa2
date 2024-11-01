@@ -1,0 +1,41 @@
+@media screen and  (max-width: 950px) {
+
+   .title-cf h1 {
+    font-size: 7px;
+   }
+
+   .dd-content label {
+    font-size: 8px;
+   }
+
+   .dd-content input {
+    width: 8vw;
+    height: 3vh;
+   }
+
+   span {
+    display: none;
+   }
+
+   .dd-content {
+    padding: 3vh;
+   }
+
+   ::placeholder {
+    font-size: 8px;
+   }
+
+   .dd-content select {
+    font-size: 10px;
+    width: 75%;
+   }
+
+   button a {
+    font-size: 7px;
+   }
+
+   input {
+    font-size: 8px;
+   }
+
+}

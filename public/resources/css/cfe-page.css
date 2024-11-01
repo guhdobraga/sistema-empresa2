@@ -1,0 +1,14 @@
+.dd-bg {flex-direction: column;}
+
+.dd-bgf {
+    display: flex;
+    flex-direction: column;
+}
+
+#model {
+    width: 55vw;
+}
+
+.baixo {
+    display: flex;
+}

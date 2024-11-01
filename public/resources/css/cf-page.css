@@ -1,0 +1,54 @@
+.title-cf {
+   
+    color: black;
+    background-color: #FAFDEF;
+    width: 20vw;
+    padding: 2vh;
+    box-shadow: 4px 2px 5px 2px rgba(0, 0, 0, 0.163);
+}
+
+
+
+.dd {
+    padding: 5vh;
+    text-align: center;
+}
+
+.dd-bg {
+    background-color: #D9D9D9;
+    height: 50vh;
+}
+
+.dd-content label{
+    font-size: 25px;
+}
+
+.dd-content select {
+    font-size: 20px;
+    width: 50%;
+}
+
+#s {
+    padding-left: 2vh;
+}
+
+.dd-content {
+    padding: 5vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.dd-content button {
+    background-color: #D6D1D1;
+    font-size: 20px;
+    width: 10vw;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.162);
+    transition: all 0.3s ease;  
+}
+
+.dd-content button:hover {
+    transition: all 0.2s;
+    background-color: #d5d4d4;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.162);
+}

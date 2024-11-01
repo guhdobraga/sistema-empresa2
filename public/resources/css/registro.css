@@ -1,0 +1,255 @@
+body {
+    background-color: #FAFDEF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.empresa {
+    background-color: #D9D9D9;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: #000;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.label, .input {
+    display: inline-block;
+}
+.table {
+    display: table;
+    
+    border-collapse: collapse;
+    width: 96%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+  
+  .table2 {
+    display: table;
+    width: 100%;
+    border: 2px solid #ccc; /* Altere a largura da borda conforme necessário */
+    border-collapse: collapse;
+
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .cell {
+    display: table-cell;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+.etapas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-evenly
+}
+
+.etapa-container {
+    display: flex;
+    align-items: center;
+}
+
+.etapa {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-right: 10px; /* Espaço entre o círculo e o próximo */
+}
+
+.etapa:hover {
+    background-color: #0047AB;
+    color: #FFF;
+}
+
+.etapa-label {
+    text-align: center;
+}
+/* Para ocultar as setas em navegadores baseados em WebKit (como Chrome, Safari) */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Para ocultar as setas em navegadores baseados em Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* Media Query para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .etapa {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    .etapa-label {
+        display: none;
+    }
+
+    .etapa-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .etapa:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+.botao-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.botao {
+    padding: 10px 20px;
+    background-color: #033274;
+    color: #FFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block; /* Para ocupar toda a largura disponível */
+    max-width: 200px; /* Defina uma largura máxima para o botão */
+    width: 100%; /* Para garantir que o botão ocupe toda a largura */
+    text-align: center; /* Centralizar o texto */
+    margin: 0 auto; /* Centralizar o botão */
+}
+
+.botao:hover {
+    background-color: #0047AB;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.checkbox {
+    margin-right: 10px; /* Espaçamento entre a caixa de seleção e o texto */
+}
+
+.label-checkbox {
+    color: #000;
+}
+
+.termo-adesao-link {
+    color: #033274; /* Cor azul para o termo de adesão */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.termo-adesao-link:hover {
+    color: #0047AB; /* Cor azul alterada no hover */
+}
+.select-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    border: 1px solid #033274;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.select-input:focus {
+    outline: none;
+    border-color: #0047AB;
+}
+
+.select-input option {
+    background-color: #FAFDEF;
+    color: #000;
+}
+
+/* Dentro da sua media query para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .cell.input {
+        width: 100%; /* Defina a largura para ocupar toda a largura disponível */
+    }
+
+    .input-file {
+        width: 100%; /* Defina a largura para ocupar toda a largura disponível */
+        box-sizing: border-box; /* Inclua padding e borda na largura total */
+    }
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+   
+    width: 65vw;
+    
+}
+
+input {
+    outline: none;
+    height: 4vh;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    height: 30vh;
+}
+
+.main-logo img {
+    width: 300px;
+    height: 300px;
+}
+
+.space {
+    width: 100vw;
+    height:vh ;
+}
+
+.esq{
+    padding: 15px;
+    width: 50vw;
+}
+
+.dir {
+    display: flex;
+    justify-content: end;
+    
+    width: 50vw;
+}

@@ -1,0 +1,47 @@
+.dd {
+    padding: 5vh;
+    text-align: center;
+}
+
+
+
+.dd-content label{
+    font-size: 25px;
+}
+
+.dd-content select {
+    font-size: 20px;
+    width: 50%;
+}
+
+.dd-content {
+    padding: 5vh;
+    display: flex;
+    justify-content: start;     
+    align-items: center;
+}
+
+.dd-content button {
+    background-color: #474ae9;
+    font-size: 20px;
+    width: 10vw;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.162);
+    transition: all 0.3s ease;  
+    color: aliceblue;
+}
+
+.dd-content button:hover {
+    transition: all 0.2s;
+    background-color: #3e03f1;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.162);
+    
+}
+
+.content{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d9d9;
+}

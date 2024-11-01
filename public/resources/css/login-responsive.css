@@ -1,0 +1,48 @@
+@media screen and  (max-width: 950px) {
+
+    .info-text {
+        font-size: 15px;
+    }
+    
+    .bg-img {
+        width: 8vw;
+    }
+
+    .bg-img img {
+        width: 20px;
+        height: 20px;
+    }
+
+    form {
+        width: 70vw;
+    }
+
+    input {
+        width: 50vw;
+    }
+
+    .main-text {
+        height: 70vh;
+    }
+
+    button {
+        width: 25vw;
+    }
+
+    ::placeholder {
+        font-size: 15px
+    }
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .buttont {
+        bottom: 20vh;
+
+    }
+    
+    
+    
+    }

@@ -1,0 +1,29 @@
+.dd-content-meio{
+    display: flex;
+    flex-direction: column;
+}
+
+.dd-content-meio span{
+    font-size: 25px;
+    margin: 3vh;
+}
+
+.dd-content-meio input[type="text"]{
+    margin: 3vh;
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.span-preto{
+    color:black;
+    max-width: 40px;
+}
+
+aside {
+    height: 297vh;
+}

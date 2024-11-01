@@ -1,0 +1,63 @@
+.dd-content input {
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+}
+
+span {
+    color: #D9D9D9;
+}
+
+.dd-bg {
+    
+    height: 50vh;
+}
+
+.dd-bgf {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dire {
+    display: flex;
+    flex-direction: column;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+#rz {
+    display: flex;
+    height: 20vh;
+}
+
+.title-cf {
+    height: 7vh;
+}
+
+#rzz {
+    height: 64vh;
+}
+
+#cartao {
+    display: flex;
+}
+
+#cartao input {
+    width: 5vw;
+}
+
+#es {
+    padding-right: 2vh;
+}
+
+#rzzz {
+    height: 50vh;
+}
+
+aside {
+    height: 282vh;
+}
+
+

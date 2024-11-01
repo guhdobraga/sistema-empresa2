@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+}
+
+.sub-content {
+    display: flex;
+    
+    padding: 5vh;
+}
+
+table {
+    color: black;
+}
+
+fieldset {
+    border: none;
+}
+
+table th {
+    background-color: #D9D9D9;
+    font-weight: lighter;
+}
+
+table {
+    width: 60vw;
+    height: 27vh;
+    border: solid 1px #939393;
+}
+
+td {
+    text-align: center;
+}
